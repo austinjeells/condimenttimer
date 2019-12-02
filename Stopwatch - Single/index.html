@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stopwatch</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="text/javascript" src="script.js"></script>
+    <script> 
+        var audio1 = new Audio();
+//        audio1.src = "Xbox Achievement.mp3";
+//        audio1.src = "Door Bell.mp3";
+//        audio1.src = "Warning Siren.mp3";
+        audio1.src = "Store Door Chime.mp3";
+//        audio1.src = "Foghorn.mp3";
+//        audio1.src = "Submarine Diving Alarm.mp3";
+//        audio1.src = "SNCF France Jingle.mp3";
+    </script>
+
+    <script> 
+        var audio2 = new Audio();
+//        audio2.src = "Xbox Achievement.mp3";
+//        audio2.src = "Door Bell.mp3";
+//        audio2.src = "Warning Siren.mp3";
+//        audio2.src = "Store Door Chime.mp3";
+//        audio2.src = "Foghorn.mp3";
+//        audio2.src = "Submarine Diving Alarm.mp3";
+        audio2.src = "SNCF France Jingle.mp3";
+    </script>
+
+</head>
+<body>
+
+    <div class="container">
+        <br>
+        <div id="display">
+            00:00
+        </div>
+
+        <div class="buttons">
+            <button id="startStop" class="myButton" onclick="startStop()">Start</button> 
+            <button id="reset" class="myButton" onclick="reset()">Reset</button>
+        </div>
+        <br>
+        <button onclick="audio1.play()">Audio 1</button>
+        <button onclick="audio2.play()">Audio 2</button>
+        <br>
+        <br>
+        <button onclick= "add10seconds()">Add 10 Sec</button>
+        <button onclick= "add20seconds()">Add 20 Sec</button>
+        <button onclick= "add30seconds()">Add 30 Sec</button>
+    </div>
+</body>
+</html>

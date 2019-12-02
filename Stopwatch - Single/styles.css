@@ -1,0 +1,37 @@
+.container{
+    height: 300px;
+    width: 100%;
+}
+
+#display{
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: "Arial";
+}
+
+.myButton {
+	background-color:#008ec2;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background-color:#005ca3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttons{
+    text-align: center;
+}
