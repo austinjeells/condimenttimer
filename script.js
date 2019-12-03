@@ -41,7 +41,7 @@ function stopWatch(){
 
     //Logic to determine when to increment next value
     if(seconds > 59){
-        seconds = 0;
+        seconds = seconds-60;
         minutes++;
 
         if(minutes / 60 === 1){
