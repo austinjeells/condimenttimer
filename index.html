@@ -41,17 +41,18 @@
         </div>
 
         <div class="buttons">
-            <button id="startStop" class="myButton" onclick="startStop()">Start</button> 
-            <button id="reset" class="myButton" onclick="reset()">Reset</button>
+            <button id="startStop" class="btn info" onclick="startStop()">Start</button> 
+            <button id="reset" class="btn warning" onclick="reset()">Reset</button>
         </div>
         <br>
-        <button onclick="audio1.play()">Audio 1</button>
-        <button onclick="audio2.play()">Audio 2</button>
+        <button class="btn success" onclick= "add10seconds()">Add 10 Sec</button>
+        <button class="btn success" onclick= "add20seconds()">Add 20 Sec</button>
+        <button class="btn success" onclick= "add30seconds()">Add 30 Sec</button>
         <br>
         <br>
-        <button onclick= "add10seconds()">Add 10 Sec</button>
-        <button onclick= "add20seconds()">Add 20 Sec</button>
-        <button onclick= "add30seconds()">Add 30 Sec</button>
+        <button class="btn default" onclick="audio1.play()">Audio 1</button>
+        <button class="btn default" onclick="audio2.play()">Audio 2</button>
+
     </div>
 </body>
 </html>
